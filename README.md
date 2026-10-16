@@ -1,2 +1,2 @@
 # pw04
-Операции, выражения и операторы.
+Operations, expressions, and operators.
