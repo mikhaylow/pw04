@@ -5,7 +5,6 @@ double c_to_k(double c);
 
 int main(void)
 {
-
     int option = ((111260445 + (0 + 23)) % 30) + 1; // 9
 
     double celcius, kelvin;

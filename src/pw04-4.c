@@ -19,7 +19,7 @@ int main(void)
 
 unsigned long long geom_sum(int base, int exp)
 {
-    long long result = 1;
+    unsigned long long result = 1;
 
     size_t i = 0;
     while (i < exp)
