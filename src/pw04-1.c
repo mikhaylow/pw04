@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 #define COEF 8
 
 int main(void)
