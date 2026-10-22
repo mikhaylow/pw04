@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 #define COEF 8
 
 int main(void)
@@ -12,10 +13,8 @@ int main(void)
     user_data = 0;
     data_bytes = 0;
 
-    while (1)
+    while (scanf("%u", &user_data) == 1 && user_data >= 0)
     {
-        scanf("%d", &user_data);
-
         data_bytes = user_data / COEF;
 
         printf("Величина: %s\nБазовая (бит): %d\nСтаршая (байт): %d\nМладшая (бит): %d\nКоэффициент: %d\n", value, user_data, data_bytes, user_data, COEF);

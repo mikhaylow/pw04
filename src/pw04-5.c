@@ -8,9 +8,8 @@ int main(void)
 
     double celcius, kelvin;
 
-    while(1)
+    while(scanf("%lf", &celcius) == 1)
     {
-        scanf("%lf", &celcius);
         kelvin = c_to_k(celcius);
         printf("celcius: %.2f\nkelvin: %.2f\n", celcius, kelvin);
     }
