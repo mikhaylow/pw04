@@ -8,7 +8,7 @@ int main(void)
 
     int range;
     
-    if (scanf("%d", &range) != 1) return -1;
+    scanf("%d", &range);
     
     unsigned long long result = geom_sum(2, range);
     

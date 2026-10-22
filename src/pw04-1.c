@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 #define COEF 8
 
 int main(void)
@@ -13,14 +12,9 @@ int main(void)
     user_data = 0;
     data_bytes = 0;
 
-    while (true)
+    while (1)
     {
-        if (scanf("%d", &user_data) != 1) return -1;
-
-        if (user_data < 0)
-        {
-            break;
-        }
+        scanf("%d", &user_data);
 
         data_bytes = user_data / COEF;
 

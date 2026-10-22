@@ -9,7 +9,7 @@ int main(void)
     range = 0;
     result = 0;
 
-    if (scanf("%d", &range) != 1) return -1;
+    scanf("%d", &range);
 
     size_t i = 1;
 

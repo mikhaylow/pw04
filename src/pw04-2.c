@@ -7,7 +7,7 @@ int main(void)
 
     uint16_t r = 0;
     
-    if (scanf("%hu", &r) != 1) return -1;
+    scanf("%hu", &r);
 
     double result = 2 * 3.14159 * (double)r;
 

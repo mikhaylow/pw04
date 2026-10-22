@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 double c_to_k(double c);
 
@@ -9,9 +8,9 @@ int main(void)
 
     double celcius, kelvin;
 
-    while(true)
+    while(1)
     {
-        if (scanf("%lf", &celcius) != 1) return -1;
+        scanf("%lf", &celcius);
         kelvin = c_to_k(celcius);
         printf("celcius: %.2f\nkelvin: %.2f\n", celcius, kelvin);
     }
