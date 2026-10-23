@@ -6,13 +6,25 @@ int main(void)
 {
     int option = ((111260445 + (0 + 19)) % 30) + 1; // 5
 
-    int range;
-    
-    scanf("%d", &range);
-    
-    unsigned long long result = geom_sum(2, range);
-    
-    printf("geometric_sum: %llu\n", result);
+    int range, n, a;
+
+    n = 0;
+    a = 0;
+
+    unsigned long long result = 0;
+
+    scanf("%d", &n);
+
+    while (a < n)
+    {
+        a++;
+
+        scanf("%d", &range);
+
+        result = geom_sum(2, range);
+
+        printf("geometric_sum: %llu\n\n", result);
+    }
 
     return 0;
 }

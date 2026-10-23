@@ -17,9 +17,9 @@ int main(void)
     return 0;
 }
 
+const double COEF = 273.15;
+
 double c_to_k(double c)
 {
-    const double COEF = 273.15;
-
     return c + COEF;
 }
